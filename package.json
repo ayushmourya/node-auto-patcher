@@ -1,0 +1,31 @@
+{
+  "name": "node-auto-patcher",
+  "version": "1.0.0",
+  "description": "Automated security patch applicator for Node.js dependencies",
+  "main": "lib/index.js",
+  "bin": {
+    "auto-patcher": "./bin/auto-patcher.js"
+  },
+  "scripts": {
+    "start": "node ./bin/auto-patcher.js"
+  },
+  "keywords": [
+    "security",
+    "patch",
+    "automation",
+    "dependencies"
+  ],
+  "author": "Ayush Mourya",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "docker-cli-js": "^2.10.0",
+    "jest": "^29.7.0",
+    "node-cron": "^3.0.3",
+    "npm-check-updates": "^16.14.20",
+    "semver": "^7.6.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
